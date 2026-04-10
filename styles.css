@@ -1,1 +1,15 @@
 /*  your css code here. If applicable */
+/* The base rectangle */
+.rectangle {
+  width: 200px;
+  height: 100px;
+  background: blue;
+}
+
+/* The square inherits the general look but overrides the dimensions */
+.square {
+  width: 150px; 
+  height: auto;      /* Height is no longer fixed */
+  aspect-ratio: 1/1; /* Forces height to equal width (Perfect Square) */
+  background: red;
+}
